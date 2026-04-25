@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f172a;
+  color: #fff;
+}
+
+.container {
+  width: 500px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.inputBox {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1e293b;
+  color: white;
+}
+
+button {
+  padding: 12px 15px;
+  border: none;
+  background: #22c55e;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.highlight {
+  background: #ffcc00 !important;
+  color: black !important;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBox {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendarBox {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.react-calendar {
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  background: #1e1e1e;
+  color: white;
+}
+
+.highlight {
+  background: #ffcc00 !important;
+  color: black !important;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
