@@ -36,7 +36,7 @@ const updateReminder = async () => {
   const [notifiedIds, setNotifiedIds] = useState(new Set());
 
   // 🔹 Backend API base URL
-  const API = "http://localhost:5000/api/reminders";
+  const API = "https://nlp-driven-personal-memory-assistant.onrender.com";
 
 
   // 🔹 Format date into readable format (Indian style)
