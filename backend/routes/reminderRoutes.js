@@ -5,11 +5,15 @@ const {
   addReminder,
   getReminders,
   deleteReminder,
-updateReminder 
+  updateReminder,
+  chatWithAssistant
 } = require("../controllers/reminderController");
 
 // ➕ Add reminder
 router.post("/add", addReminder);
+
+// 💬 Chat with Assistant
+router.post("/chat", chatWithAssistant);
 
 // 📥 Get all reminders
 router.get("/", getReminders);

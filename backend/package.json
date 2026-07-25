@@ -13,12 +13,13 @@
   "type": "commonjs",
   "dependencies": {
     "body-parser": "^2.2.2",
-    "chrono-node": "^2.9.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mysql2": "^3.22.2",
     "node-cron": "^4.2.1",
-    "nodemailer": "^8.0.5"
+    "nodemailer": "^8.0.5",
+    "@google/generative-ai": "^0.21.0",
+    "node-notifier": "^10.0.1"
   }
 }
